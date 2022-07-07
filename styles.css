@@ -1,0 +1,140 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.product-box {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.product-img {
+  height: 100%;
+  width: 50%;
+  background-image: url("images/image-product-desktop.jpg");
+  background-size: cover;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+
+.product-info {
+  flex: 1;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.product-name {
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  font-family: Fraunces;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: 14px;
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.price-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.discounted-price {
+  margin-right: 20px;
+  font-family: Fraunces;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+.not-discounted {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: Montserrat;
+}
+
+
+
+
+.add-to-cart {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.add-to-cart div {
+  margin-left: 10px;
+}
+
+.add-to-cart:hover{
+  background-color: hsl(155, 40%, 18%);
+}
+
+.attribution {
+  margin-top: 20px;
+}
+
+@media (min-width: 360px) and (max-width: 768px)  {
+  .product-box {
+      width: auto;
+      min-height: 600px;
+      flex-direction: column;
+      margin: 10px;
+  }
+  .product-img{
+      background-image: url("images/image-product-mobile.jpg");
+      border-radius: 0;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+      height: 100%;
+      width: 100%;
+      background-size: 30rem;
+      background-repeat: no-repeat;
+  }
+  .product-info{
+      height: auto;
+      width: auto;
+      display: block;
+      padding: 5%;
+  }
+
+}
