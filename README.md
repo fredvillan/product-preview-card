@@ -46,7 +46,7 @@ Users should be able to:
 
 
 - Solution URL: https://github.com/fredvillan/product-preview-card/blob/main/index.html
-- Live Site URL: https://fredvillan.github.io/Frontend-Menter-product-preview-card/
+- Live Site URL: https://fredvillan.github.io/product-preview-card/
 
 ## My process
 
